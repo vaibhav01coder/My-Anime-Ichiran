@@ -1,0 +1,364 @@
+body {
+  font-size: larger;
+  background-color: #343a40;
+  padding: .5% 15%;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+  margin-bottom: -5px;
+}
+
+.header-logo {
+  text-align: left;
+  display: flex;
+}
+
+.logo-name {
+  padding-left: 10px;
+}
+
+.header {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #2e51a2;
+}
+
+.anime-nav {
+  padding-top: 1px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: #2e51a2;
+  border-radius: 10px;
+}
+
+.dropdown-item:hover {
+  background-color: #2e51a2;
+  color: #ffffff;
+}
+
+.search-form {
+  width: 250px;
+  font-size: medium;
+}
+
+.form {
+  display: flex;
+}
+
+.src-btn {
+  margin-left: 5px;
+}
+
+.cards {
+  margin-left: 5px;
+}
+
+.anime-card {
+  background-color: #212529;
+  margin-top: 10px;
+  margin-left: 18px;
+  padding: 1%;
+  color: white;
+  position: relative;
+  width: 15%;
+  height: auto;
+  text-align: center;
+  transition: transform .5s;
+  border-radius: 5px;
+  font-size: small;
+}
+
+
+.anime-card:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 4px solid #2e51a2;
+}
+
+.rating {
+  position: relative;
+  padding: 4px;
+  margin-top: -10px;
+  background-color: #2e51a2;
+  border-radius: 0 0 5px 5px;
+
+}
+
+.card-info {
+  margin-top: 5px;
+}
+
+.name {
+  padding: 5px;
+}
+
+.rank {
+  font-size: medium;
+}
+
+.rnk {
+  font-size: medium;
+  background-color: #2e51a2;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.pop {
+  font-size: medium;
+  background-color: #2e51a2;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.foot-card {
+  padding: 1px;
+  font-size: small;
+}
+
+.ongoing {
+  margin-top: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 5px;
+  padding-top: 3px;
+  background-color: #2e51a2;
+  text-align: left;
+  height: 35px;
+}
+
+.upcoming {
+  margin-top: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 5px;
+  padding-top: 3px;
+  background-color: #2e51a2;
+  text-align: left;
+  height: 35px;
+}
+
+i {
+  padding-left: 5px;
+}
+
+.all {
+  font-size: medium;
+}
+
+.anime-card-view {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+}
+
+.anime-card-view>.anime-card {
+  width: calc(20% - 15px);
+  margin-left: 15px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.info-img {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: .5%;
+  background-color: #212529;
+}
+
+.info-stats {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 1%;
+  background-color: #212529;
+}
+
+.info-trailer {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: .5%;
+  background-color: #212529;
+}
+
+.info-bk {
+  background-color: #212529;
+  margin-top: 5px;
+  margin-left: 1px;
+  padding: .5%;
+}
+
+.info-names {
+  background-color: #212529;
+  margin-top: 5px;
+  margin-left: 15px;
+  padding: .5%;
+}
+
+.r1 {
+  margin-right: -70px;
+}
+
+.r2 {
+  margin-right: -86px;
+}
+
+.r3 {
+  margin-right: -86px;
+}
+
+.info {
+  margin-top: 5px;
+  background-color: #212529;
+  border-radius: 5px;
+}
+
+.info-score {
+  margin-top: 5px;
+  background-color: #2e51a2;
+  padding: 1% 5%;
+  border-radius: 5px;
+}
+
+.users {
+  font-size: small;
+}
+
+.info-st {
+  padding: 1% 5%;
+  font-size: medium;
+}
+
+.info-theme {
+  padding: 1%;
+}
+
+.info-names {
+  padding-top: 10px;
+  font-size: small;
+  text-align: left;
+}
+.names-table {
+  margin-top: 5px;
+}
+
+.info-title {
+  font-size: medium;
+}
+
+.info-h2 {
+  margin-top: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border-radius: 5px;
+  padding-top: 3px;
+  background-color: #2e51a2;
+  text-align: left;
+  height: 35px;
+}
+
+.youtube {
+  margin-right: 200px;
+  position: relative;
+  right: 20px;
+}
+
+.theme {
+  margin-top: 3px;
+}
+
+.genres {
+  font-size: small;
+  padding: 1%;
+  background-color: #2e51a2;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.info-bk-gen {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.names-st {
+  font-size: small;
+  padding: 1%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.hr-st {
+  margin-right: 12px;
+}
+
+.footer {
+  margin-top: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+  background-color: #2e51a2;
+  text-align: left;
+  border-radius: 5px;
+  height: 35px;
+  padding: 3%;
+  text-align: center;
+}
+
+.follow {
+  font-size: medium;
+}
+
+.fa-brands {
+  padding-left: 15px;
+  color: white;
+}
+
+.fa-brands:hover {
+  color: gray;
+}
+
+.copyright {
+  padding-top: 3%;
+  padding-bottom: 5px;
+  font-size: medium;
+  background-color: #2e51a2;
+  margin-left: -34.5px;
+  margin-right: -34.5px;
+}
+
+.mal {
+  color: white;
+  text-decoration: none;
+}
+
+.mal:hover {
+  color: black;
+}
