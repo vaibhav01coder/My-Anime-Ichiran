@@ -118,19 +118,24 @@ function InfoPage() {
       });
   };
 
+  
   useEffect(() => {
-    fetchInfo();
-    fetchImg();
-    fetchTrailer();
-    fetchopen();
-    fetchend();
-    fetchgen();
-    fetchtheme();
-    fetchdemo();
-    fetchlis();
-    fetchstu();
-    fetchprod();
-  }, []);
+  const fetchData = async () => {
+    await fetchInfo();
+    await fetchImg();
+    await fetchTrailer();
+    await fetchopen();
+    await fetchend();
+    await fetchgen();
+    await fetchtheme();
+    await fetchdemo();
+    await fetchlis();
+    await fetchstu();
+    await fetchprod();
+  };
+
+  fetchData();
+}, []); // ✅ no missing dependencies
 
   return (
     <div>
